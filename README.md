@@ -10,6 +10,6 @@ Dataset with only pitchers:
 Data Preprocessing: We've changed the image data into numpy array and resized it by dividing it into 255. Then, cropped it by using label data and saved the numpy vals into pkl file
 - Preprocessed: https://drive.google.com/drive/folders/1dKuSN0ke1oKVCUdPxrgOLqz4NH7fdubc?usp=drive_link
 
-CNN Model: 3 layered with input of 32,32,3 numpy array.
+CNN Model: 3 layered with input of (1, 32, 32, 3) numpy array.
 
 ![다운로드](https://github.com/Mye0n9/AAI_Pitcher/assets/113423383/129b097d-2969-48cb-be84-1305ad7ba705)
